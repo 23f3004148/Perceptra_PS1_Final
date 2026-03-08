@@ -1,0 +1,11 @@
+metric_name,overall_value,interpretation
+Accuracy,0.5139318885448917,Overall correctness
+Macro Precision,0.5124273375130339,Unweighted class precision
+Macro Recall,0.5205196673053165,Unweighted class recall
+Macro F1,0.5068825578446269,Balanced class-wise performance
+Weighted F1,0.5070678367415495,Support-weighted F1
+Top-3 Accuracy,0.7430340557275542,Whether true class appears in top 3
+ROC-AUC OVR Macro,0.8740928368084956,One-vs-rest multiclass AUC
+ROC-AUC OVR Weighted,0.872979551055789,Support-weighted one-vs-rest multiclass AUC
+Inference Time (ms/image),5.077832992600952,Latency per image
+Parameters (Millions),10.722361,Model size in millions of parameters
